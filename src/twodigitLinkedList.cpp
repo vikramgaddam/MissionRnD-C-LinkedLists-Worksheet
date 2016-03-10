@@ -34,12 +34,5 @@ int convert_sll_2digit_to_int(struct node *head){
 		head = head->next;
 	}
 
-	//while (num > 0)
-	//{
-		//rev_num = rev_num * 10 + num % 10;
-		//num = num / 10;
-	//}
 	return num;
-
-	return 0;
 }
